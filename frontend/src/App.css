@@ -1,0 +1,4 @@
+/* Custom styles can go here */
+.card-img-top {
+  object-fit: cover;
+}
