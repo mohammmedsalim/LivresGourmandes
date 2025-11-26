@@ -1,4 +1,4 @@
-# 📚 Livres Gourmands - E-Commerce de Livres de Cuisine
+# Livres Gourmands - E-Commerce de Livres de Cuisine
 
 Application e-commerce moderne pour la vente de livres de cuisine, développée avec React, Node.js, Express et MySQL.
 
@@ -6,25 +6,25 @@ Application e-commerce moderne pour la vente de livres de cuisine, développée 
 ![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-green.svg)
 ![React](https://img.shields.io/badge/react-18.3.1-blue.svg)
 
-## 🎯 Description du Projet
+## Description du Projet
 
 **Livres Gourmands** est une plateforme e-commerce complète permettant aux utilisateurs de parcourir, acheter et gérer des livres de cuisine. Le projet inclut :
 
-- 🛒 **Système de panier** avec gestion des quantités
-- 👤 **Authentification** complète (inscription, connexion, gestion de session)
-- 🔐 **Dashboard Admin** pour la gestion CRUD des produits
-- 📱 **Interface responsive** avec design moderne
-- 🔔 **Notifications toast** pour toutes les actions utilisateur
-- 💳 **Système de commandes** avec historique
-- 🎨 **UI/UX premium** avec animations et effets
+- **Système de panier** avec gestion des quantités
+- **Authentification** complète (inscription, connexion, gestion de session)
+- **Dashboard Admin** pour la gestion CRUD des produits
+- **Interface responsive** avec design moderne
+- **Notifications toast** pour toutes les actions utilisateur
+- **Système de commandes** avec historique
+- **UI/UX premium** avec animations et effets
 
-## 🎥 Démo & Design
+## Démo & Design
 
-- **📹 Vidéo de démonstration** : [Lien vers la vidéo](#) *(à ajouter)*
-- **🎨 Design Figma** : [Lien Figma](#) *(à ajouter)*
-- **🖌️ Maquettes Adobe XD** : [Lien XD](#) *(à ajouter)*
+- **Vidéo de démonstration** : [Lien vers la vidéo](#) *(à ajouter)*
+- **Design Figma** : [Lien Figma](#) *(à ajouter)*
+- **Maquettes Adobe XD** : [Lien XD](#) *(à ajouter)*
 
-## 🏗️ Architecture Technique
+## Architecture Technique
 
 ### Stack Technologique
 
@@ -48,7 +48,7 @@ Application e-commerce moderne pour la vente de livres de cuisine, développée 
 - MySQL 8.0+
 - Docker pour la conteneurisation (optionnel)
 
-## 📁 Structure du Dépôt
+## Structure du Dépôt
 
 ```
 projet-finale/
@@ -73,12 +73,10 @@ projet-finale/
 └── docs/                       # Documentation
     ├── api_documentation.md    # Documentation API
     ├── architecture_technique.md
-    ├── conception_visuelle.md
-    ├── demo_script.md
     └── manuel_installation.md
 ```
 
-## 🚀 Installation
+## Installation
 
 ### Prérequis
 
@@ -87,7 +85,7 @@ projet-finale/
 - npm ou yarn
 - Git
 
-### 1️⃣ Installation Backend
+### Installation Backend
 
 ```bash
 # Cloner le dépôt
@@ -116,7 +114,7 @@ npm run dev
 
 Le serveur backend démarre sur `http://localhost:5000`
 
-### 2️⃣ Installation Frontend
+### Installation Frontend
 
 ```bash
 # Ouvrir un nouveau terminal
@@ -131,7 +129,7 @@ npm run dev
 
 L'application frontend démarre sur `http://localhost:5173`
 
-### 🐳 Installation avec Docker (optionnel)
+### Installation avec Docker (optionnel)
 
 ```bash
 # Démarrer MySQL avec Docker
@@ -145,7 +143,7 @@ docker run --name mysql-livresgourmands \
 cat backend/database.sql | docker exec -i mysql-livresgourmands mysql -u root -proot livresgourmands
 ```
 
-## 📝 Commandes Disponibles
+## Commandes Disponibles
 
 ### Backend
 ```bash
@@ -160,7 +158,7 @@ npm run build    # Créer le build de production
 npm run preview  # Prévisualiser le build de production
 ```
 
-## 🔌 API Documentation
+## API Documentation
 
 ### Base URL
 ```
@@ -254,29 +252,29 @@ GET /api/orders/myorders
 Authorization: Bearer <token>
 ```
 
-## 👥 Gestion des Rôles
+## Gestion des Rôles
 
 ### Rôles Disponibles
 
-#### 1. **Client** (Utilisateur standard)
+#### 1. Client (Utilisateur standard)
 **Permissions :**
-- ✅ Parcourir les produits
-- ✅ Ajouter au panier
-- ✅ Passer des commandes
-- ✅ Voir l'historique de ses commandes
-- ❌ Accès au dashboard admin
+- Parcourir les produits
+- Ajouter au panier
+- Passer des commandes
+- Voir l'historique de ses commandes
+- Pas d'accès au dashboard admin
 
 **Inscription :** Automatique lors de la création de compte
 
-#### 2. **Admin** (Administrateur)
+#### 2. Admin (Administrateur)
 **Permissions :**
-- ✅ Toutes les permissions Client
-- ✅ Accès au Dashboard Admin
-- ✅ Créer des produits
-- ✅ Modifier des produits
-- ✅ Supprimer des produits
-- ✅ Gérer le stock
-- ✅ Voir toutes les commandes
+- Toutes les permissions Client
+- Accès au Dashboard Admin
+- Créer des produits
+- Modifier des produits
+- Supprimer des produits
+- Gérer le stock
+- Voir toutes les commandes
 
 **Accès :** Promotion manuelle en base de données
 ```sql
@@ -295,53 +293,51 @@ docker exec -i mysql-livresgourmands mysql -u root -proot livresgourmands \
   -e "UPDATE users SET role = 'admin' WHERE email = 'votre-email@example.com';"
 ```
 
-## ✨ Fonctionnalités Principales
+## Fonctionnalités Principales
 
 ### Pour les Clients
-- 🏠 Page d'accueil avec hero section et produits mis en avant
-- 📖 Catalogue de livres avec recherche
-- 🛒 Panier persistant (localStorage)
-- 💳 Système de commande
-- 👤 Gestion de compte (inscription, connexion, profil)
-- 🔔 Notifications toast pour toutes les actions
+- Page d'accueil avec hero section et produits mis en avant
+- Catalogue de livres avec recherche
+- Panier persistant (localStorage)
+- Système de commande
+- Gestion de compte (inscription, connexion, profil)
+- Notifications toast pour toutes les actions
 
 ### Pour les Admins
-- 📊 Dashboard admin dédié
-- ➕ Création de nouveaux produits
-- ✏️ Modification des produits existants
-- 🗑️ Suppression de produits
-- 📦 Gestion du stock
-- 📈 Vue d'ensemble des produits
+- Dashboard admin dédié
+- Création de nouveaux produits
+- Modification des produits existants
+- Suppression de produits
+- Gestion du stock
+- Vue d'ensemble des produits
 
-## 🎨 Design & UX
+## Design & UX
 
 - **Design moderne** avec gradients et glassmorphism
 - **Animations fluides** et micro-interactions
 - **Responsive** sur tous les appareils
 - **Dark mode** pour la navbar
-- **Toast notifications** avec icônes emoji
+- **Toast notifications** avec icônes
 - **Badges** de stock colorés (vert/orange/rouge)
 - **Cartes produits** avec effets hover
 
-## 🔒 Sécurité
+## Sécurité
 
-- ✅ Mots de passe hashés avec bcrypt
-- ✅ Authentification JWT
-- ✅ Protection CORS
-- ✅ Helmet pour les headers HTTP
-- ✅ Validation des entrées
-- ✅ Routes protégées par middleware
-- ✅ Séparation des rôles (Client/Admin)
+- Mots de passe hashés avec bcrypt
+- Authentification JWT
+- Protection CORS
+- Helmet pour les headers HTTP
+- Validation des entrées
+- Routes protégées par middleware
+- Séparation des rôles (Client/Admin)
 
-## 📚 Documentation Complète
+## Documentation Complète
 
-- [📖 Documentation API](docs/api_documentation.md)
-- [🏗️ Architecture Technique](docs/architecture_technique.md)
-- [🎨 Conception Visuelle](docs/conception_visuelle.md)
-- [🎬 Script de Démo](docs/demo_script.md)
-- [📝 Manuel d'Installation](docs/manuel_installation.md)
+- [Documentation API](docs/api_documentation.md)
+- [Architecture Technique](docs/architecture_technique.md)
+- [Manuel d'Installation](docs/manuel_installation.md)
 
-## 🧪 Tests
+## Tests
 
 Pour tester l'application :
 
@@ -354,7 +350,7 @@ Pour tester l'application :
 7. **Accéder au dashboard** via le menu utilisateur
 8. **Gérer les produits** (créer, modifier, supprimer)
 
-## 🤝 Contribution
+## Contribution
 
 Ce projet est développé dans un cadre académique. Pour toute question ou suggestion :
 
@@ -362,15 +358,15 @@ Ce projet est développé dans un cadre académique. Pour toute question ou sugg
 2. Créer une pull request
 3. Contacter l'équipe de développement
 
-## 📄 Licence
+## Licence
 
 Ce projet est développé à des fins éducatives.
 
-## 👨‍💻 Auteur
+## Auteur
 
 **Mohammed Salim**
 - GitHub: [@mohammmedsalim](https://github.com/mohammmedsalim)
 
 ---
 
-**⭐ N'oubliez pas de mettre une étoile si vous aimez ce projet !**
+N'oubliez pas de mettre une étoile si vous aimez ce projet !
