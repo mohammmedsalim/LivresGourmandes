@@ -19,10 +19,9 @@ Application e-commerce moderne pour la vente de livres de cuisine, développée 
 - **UI/UX premium** avec animations et effets
 
 ## Démo & Design
-
-- **Vidéo de démonstration** : [Lien vers la vidéo](#) *(à ajouter)*
-- **Design Figma** : [Lien Figma](#) *(à ajouter)*
-- **Maquettes Adobe XD** : [Lien XD](#) *(à ajouter)*
+- **Vidéo de démonstration** : https://youtu.be/kj7xcLFuBIo
+- **Design Figma** : https://www.figma.com/design/4wl9ZmGNPVx3YT9dnCE5xe/Livres-Gourmandes?node-id=0-1&t=0wvZG9Qe4vmRIzwf-1
+- **Github** : https://github.com/mohammmedsalim/LivresGourmandes
 
 ## Architecture Technique
 
